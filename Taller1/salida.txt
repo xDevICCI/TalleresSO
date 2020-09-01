@@ -1,0 +1,225 @@
+
+1  PULL    Dispatcher     102 
+2  LOAD    proceso1.txt Dispatcher 103
+3  EXEC    proceso1.txt Dispatcher 104
+4   I    proceso1.txt  8989
+5   I    proceso1.txt  8990
+6   I    proceso1.txt  8991
+7  ES 7    proceso1.txt 8992
+8  ST    proceso1.txt  Dispatcher  100
+9  PULL    Dispatcher     102 
+10  LOAD    proceso2.txt Dispatcher 103
+11  EXEC    proceso2.txt Dispatcher 104
+12   I    proceso2.txt  9515
+13   I    proceso2.txt  9516
+14   I    proceso2.txt  9517
+15  ES 7    proceso2.txt 9518
+16  ST    proceso2.txt  Dispatcher  100
+17  PUSH_Bloqueado    proceso1.txt  Dispatcher  101
+18  PULL    Dispatcher     102 
+19  LOAD    proceso1.txt Dispatcher 103
+20  EXEC    proceso1.txt Dispatcher 104
+21   I    proceso1.txt  8992
+22   I    proceso1.txt  8993
+23   I    proceso1.txt  8994
+24   I    proceso1.txt  8995
+25   I    proceso1.txt  8996
+26   I    proceso1.txt  8997
+27  PULL    Dispatcher     102 
+28  LOAD    proceso3.txt Dispatcher 103
+29  EXEC    proceso3.txt Dispatcher 104
+30   I    proceso3.txt  9671
+31   I    proceso3.txt  9672
+32   I    proceso3.txt  9673
+33   I    proceso3.txt  9674
+34   I    proceso3.txt  9675
+35   I    proceso3.txt  9676
+36  PUSH_Listo    proceso3.txt  Dispatcher  101
+37  PUSH_Bloqueado    proceso2.txt  Dispatcher  101
+38  PULL    Dispatcher     102 
+39  LOAD    proceso2.txt Dispatcher 103
+40  EXEC    proceso2.txt Dispatcher 104
+41   I    proceso2.txt  9518
+42   I    proceso2.txt  9519
+43   I    proceso2.txt  9520
+44   I    proceso2.txt  9521
+45   I    proceso2.txt  9522
+46   I    proceso2.txt  9523
+47  PULL    Dispatcher     102 
+48  LOAD    proceso4.txt Dispatcher 103
+49  EXEC    proceso4.txt Dispatcher 104
+50   I    proceso4.txt  8641
+51   I    proceso4.txt  8642
+52   I    proceso4.txt  8643
+53   I    proceso4.txt  8644
+54   I    proceso4.txt  8645
+55   I    proceso4.txt  8646
+56  PUSH_Listo    proceso4.txt  Dispatcher  101
+1  PULL    Dispatcher     102 
+2  LOAD    proceso1.txt Dispatcher 103
+3  EXEC    proceso1.txt Dispatcher 104
+4   I    proceso1.txt  7216
+5   I    proceso1.txt  7217
+6   I    proceso1.txt  7218
+7  ES 7    proceso1.txt 7219
+8  ST    proceso1.txt  Dispatcher  100
+9  PULL    Dispatcher     102 
+10  LOAD    proceso2.txt Dispatcher 103
+11  EXEC    proceso2.txt Dispatcher 104
+12   I    proceso2.txt  6002
+13   I    proceso2.txt  6003
+14   I    proceso2.txt  6004
+15  ES 7    proceso2.txt 6005
+16  ST    proceso2.txt  Dispatcher  100
+17  PUSH_Bloqueado    proceso1.txt  Dispatcher  101
+18  PULL    Dispatcher     102 
+19  LOAD    proceso1.txt Dispatcher 103
+20  EXEC    proceso1.txt Dispatcher 104
+21   I    proceso1.txt  7219
+22   I    proceso1.txt  7220
+23   I    proceso1.txt  7221
+24   I    proceso1.txt  7222
+25   I    proceso1.txt  7223
+26   I    proceso1.txt  7224
+27  PULL    Dispatcher     102 
+28  LOAD    proceso3.txt Dispatcher 103
+29  EXEC    proceso3.txt Dispatcher 104
+30   I    proceso3.txt  9162
+31   I    proceso3.txt  9163
+32   I    proceso3.txt  9164
+33   I    proceso3.txt  9165
+34   I    proceso3.txt  9166
+35   I    proceso3.txt  9167
+36  PUSH_Listo    proceso3.txt  Dispatcher  101
+37  PUSH_Bloqueado    proceso2.txt  Dispatcher  101
+38  PULL    Dispatcher     102 
+39  LOAD    proceso2.txt Dispatcher 103
+40  EXEC    proceso2.txt Dispatcher 104
+41   I    proceso2.txt  6005
+42   I    proceso2.txt  6006
+43   I    proceso2.txt  6007
+44   I    proceso2.txt  6008
+45   I    proceso2.txt  6009
+46   I    proceso2.txt  6010
+47  PULL    Dispatcher     102 
+48  LOAD    proceso4.txt Dispatcher 103
+49  EXEC    proceso4.txt Dispatcher 104
+50   I    proceso4.txt  6380
+51   I    proceso4.txt  6381
+52   I    proceso4.txt  6382
+53   I    proceso4.txt  6383
+54   I    proceso4.txt  6384
+55   I    proceso4.txt  6385
+56  PUSH_Listo    proceso4.txt  Dispatcher  101
+1  PULL    Dispatcher     102 
+2  LOAD    proceso1.txt Dispatcher 103
+3  EXEC    proceso1.txt Dispatcher 104
+4   I    proceso1.txt  8840
+5   I    proceso1.txt  8841
+6   I    proceso1.txt  8842
+7  ES 7    proceso1.txt 8843
+8  ST    proceso1.txt  Dispatcher  100
+9  PULL    Dispatcher     102 
+10  LOAD    proceso2.txt Dispatcher 103
+11  EXEC    proceso2.txt Dispatcher 104
+12   I    proceso2.txt  8788
+13   I    proceso2.txt  8789
+14   I    proceso2.txt  8790
+15  ES 7    proceso2.txt 8791
+16  ST    proceso2.txt  Dispatcher  100
+17  PUSH_Bloqueado    proceso1.txt  Dispatcher  101
+18  PULL    Dispatcher     102 
+19  LOAD    proceso1.txt Dispatcher 103
+20  EXEC    proceso1.txt Dispatcher 104
+21   I    proceso1.txt  8843
+22   I    proceso1.txt  8844
+23   I    proceso1.txt  8845
+24   I    proceso1.txt  8846
+25   I    proceso1.txt  8847
+26   I    proceso1.txt  8848
+27  PULL    Dispatcher     102 
+28  LOAD    proceso3.txt Dispatcher 103
+29  EXEC    proceso3.txt Dispatcher 104
+30   I    proceso3.txt  9859
+31   I    proceso3.txt  9860
+32   I    proceso3.txt  9861
+33   I    proceso3.txt  9862
+34   I    proceso3.txt  9863
+35   I    proceso3.txt  9864
+36  PUSH_Listo    proceso3.txt  Dispatcher  101
+37  PUSH_Bloqueado    proceso2.txt  Dispatcher  101
+38  PULL    Dispatcher     102 
+39  LOAD    proceso2.txt Dispatcher 103
+40  EXEC    proceso2.txt Dispatcher 104
+41   I    proceso2.txt  8791
+42   I    proceso2.txt  8792
+43   I    proceso2.txt  8793
+44   I    proceso2.txt  8794
+45   I    proceso2.txt  8795
+46   I    proceso2.txt  8796
+47  PULL    Dispatcher     102 
+48  LOAD    proceso4.txt Dispatcher 103
+49  EXEC    proceso4.txt Dispatcher 104
+50   I    proceso4.txt  8202
+51   I    proceso4.txt  8203
+52   I    proceso4.txt  8204
+53   I    proceso4.txt  8205
+54   I    proceso4.txt  8206
+55   I    proceso4.txt  8207
+56  PUSH_Listo    proceso4.txt  Dispatcher  101
+1  PULL    Dispatcher     102 
+2  LOAD    proceso1.txt Dispatcher 103
+3  EXEC    proceso1.txt Dispatcher 104
+4   I    proceso1.txt  7939
+5   I    proceso1.txt  7940
+6   I    proceso1.txt  7941
+7  ES 7    proceso1.txt 7942
+8  ST    proceso1.txt  Dispatcher  100
+9  PULL    Dispatcher     102 
+10  LOAD    proceso2.txt Dispatcher 103
+11  EXEC    proceso2.txt Dispatcher 104
+12   I    proceso2.txt  8897
+13   I    proceso2.txt  8898
+14   I    proceso2.txt  8899
+15  ES 7    proceso2.txt 8900
+16  ST    proceso2.txt  Dispatcher  100
+17  PUSH_Bloqueado    proceso1.txt  Dispatcher  101
+18  PULL    Dispatcher     102 
+19  LOAD    proceso1.txt Dispatcher 103
+20  EXEC    proceso1.txt Dispatcher 104
+21   I    proceso1.txt  7942
+22   I    proceso1.txt  7943
+23   I    proceso1.txt  7944
+24   I    proceso1.txt  7945
+25   I    proceso1.txt  7946
+26   I    proceso1.txt  7947
+27  PULL    Dispatcher     102 
+28  LOAD    proceso3.txt Dispatcher 103
+29  EXEC    proceso3.txt Dispatcher 104
+30   I    proceso3.txt  9468
+31   I    proceso3.txt  9469
+32   I    proceso3.txt  9470
+33   I    proceso3.txt  9471
+34   I    proceso3.txt  9472
+35   I    proceso3.txt  9473
+36  PUSH_Listo    proceso3.txt  Dispatcher  101
+37  PUSH_Bloqueado    proceso2.txt  Dispatcher  101
+38  PULL    Dispatcher     102 
+39  LOAD    proceso2.txt Dispatcher 103
+40  EXEC    proceso2.txt Dispatcher 104
+41   I    proceso2.txt  8900
+42   I    proceso2.txt  8901
+43   I    proceso2.txt  8902
+44   I    proceso2.txt  8903
+45   I    proceso2.txt  8904
+46   I    proceso2.txt  8905
+47  PULL    Dispatcher     102 
+48  LOAD    proceso4.txt Dispatcher 103
+49  EXEC    proceso4.txt Dispatcher 104
+50   I    proceso4.txt  7815
+51   I    proceso4.txt  7816
+52   I    proceso4.txt  7817
+53   I    proceso4.txt  7818
+54   I    proceso4.txt  7819
+55   I    proceso4.txt  7820
+56  PUSH_Listo    proceso4.txt  Dispatcher  101
